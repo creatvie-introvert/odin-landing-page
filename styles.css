@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 /* global styles */
 body {
     font-family: Roboto, sans-serif;
+    color: #1f2937;
 }
 
 li {
@@ -24,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -53,9 +55,10 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 150px;
-    height: 80vh;
+    height: auto;
 }
 
 h1 {
@@ -88,7 +91,15 @@ h1 {
 }
 /* info styles */
 h2 {
-    
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px 150px;
+    text-align: center;
+}
+
+.fact-cards {
+    display: flex;
+    justify-content: center;
 }
 /* quotes styles */
 /* cta styles */
