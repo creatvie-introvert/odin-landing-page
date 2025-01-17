@@ -86,7 +86,9 @@ h1 {
     color: #f9faf8;
     width: 33.3333%;
     height: 44px;
+    border: 1px solid #3882f6;
     border-radius: 10px;
+    cursor: pointer;
 }
 /* info styles */
 
@@ -179,6 +181,7 @@ h3 {
     font-size: 18px;
     font-weight: 700;
     color: #f9faf8;
+    cursor: pointer;
 }
 /* footer styles */
 footer {
